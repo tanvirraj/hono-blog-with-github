@@ -1,0 +1,18 @@
+{
+  "name": "stordahldotdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "pnpm --filter=\"server\" run deploy",
+    "dev": "pnpm --filter=\"server\" run dev",
+    "build": "pnpm --filter=\"server\" run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "stordahl",
+  "license": "ISC",
+  "dependencies": {
+    "wrangler": "^3.28.1"
+  }
+}
